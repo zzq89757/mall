@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <van-button>aa</van-button>
+    <van-button class="btn">aa</van-button>
   </div>
 </template>
 
@@ -12,3 +12,8 @@ export default {
   }
 }
 </script>
+<style lang="css" scoped>
+  .btn{
+    width: 1.2rem;
+  }
+</style>
